@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 rm -r openChat
 git clone https://github.com/AntSoft/openChat.git
