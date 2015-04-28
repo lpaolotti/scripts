@@ -1,3 +1,3 @@
 #!/bin/bash
-PID=$(ps | grep 'node main.js' | cut -d ' ' -f 1 | head -n 1)
+PID=$(ps | grep 'node' | head -n 1 | cut -d' ' -f2)
 kill -9 ${PID}
